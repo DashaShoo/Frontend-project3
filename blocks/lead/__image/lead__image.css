@@ -1,0 +1,17 @@
+.lead__image {
+    width: 100%; /* По умолчанию занимает 100% ширины */
+}
+
+@media (min-width: 1024px) {
+    .lead__image {
+        margin: 0 48px;
+        width: calc(100% - 96px); /* Учитываем отступы */
+    }
+}
+
+@media (min-width: 1280px) {
+    .lead__image {
+        margin: 0 148px;
+        width: calc(100% - 296px); /* Учитываем отступы */
+    }
+}
