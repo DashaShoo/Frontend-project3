@@ -1,0 +1,16 @@
+.place{
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+@media (max-width: 1024px) {
+    .place {
+        margin-bottom: 73px;
+    }
+}
+
+@media (max-width: 768px) {
+    .place {
+        margin-bottom: 50px;
+    }
+}
