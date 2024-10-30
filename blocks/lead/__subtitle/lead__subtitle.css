@@ -10,11 +10,13 @@
 @media (max-width: 768px) {
     .lead__subtitle {
         font-size: 24px;
+        max-width: 640px;
     }
 }
 
 @media (max-width: 425px) {
     .lead__subtitle {
         font-size: 16px;
+        max-width: 300px;
     }
 }
