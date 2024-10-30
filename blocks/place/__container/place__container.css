@@ -3,3 +3,9 @@
     flex-direction: row;
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    .place__container {
+        flex-direction: column;
+    }
+}

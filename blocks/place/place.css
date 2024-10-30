@@ -3,14 +3,24 @@
     margin-bottom: 80px;
 }
 
+.place:last-of-type{
+    margin-bottom: 92px;
+}
+
 @media (max-width: 1024px) {
     .place {
         margin-bottom: 73px;
+    }
+    .place:last-of-type{
+        margin-bottom: 90px;
     }
 }
 
 @media (max-width: 768px) {
     .place {
         margin-bottom: 50px;
+    }
+    .place:last-of-type{
+        margin-bottom: 66px;
     }
 }

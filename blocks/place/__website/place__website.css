@@ -18,6 +18,8 @@
 
 @media (max-width: 768px) {
     .place__website {
-        
+        align-self: flex-start;
+        margin-top: 32px;
+        margin-left: 16px;
     }
 }
