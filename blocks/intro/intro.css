@@ -7,6 +7,7 @@
     .intro {
         margin: 92px 286px 92px 48px;
         width: calc(100% - 334px); 
+        max-width: 690px;
     }
 }
 
@@ -14,6 +15,7 @@
     .intro {
         margin: 92px 428px 92px 148px;
         width: calc(100% - 576px); 
+        max-width: 690px;
     }
 }
 
